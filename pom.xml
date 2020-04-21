@@ -11,17 +11,18 @@
 		<dependency>
 			<groupId>org.apache.storm</groupId>
 			<artifactId>storm-core</artifactId>
-			<version>1.2.2</version>
+			<version>1.2.3</version>
 			<scope>provided</scope>
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/org.apache.storm/storm-kafka -->
 		<dependency>
-			<groupId>org.apache.storm</groupId>
-			<artifactId>storm-kafka</artifactId>
-			<version>1.2.2</version>
-			<scope>provided</scope>
+		    <groupId>org.apache.storm</groupId>
+		    <artifactId>storm-kafka</artifactId>
+		    <version>1.2.3</version>
+		    <scope>test</scope>
 		</dependency>
+
 
 
 		<!-- https://mvnrepository.com/artifact/org.apache.kafka/kafka -->
